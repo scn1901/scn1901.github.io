@@ -1,13 +1,12 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "E10 Reflect on Javascript 1"
 date: 2023-08-30
 published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - Homework
+  - Essay
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="">
