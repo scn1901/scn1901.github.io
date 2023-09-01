@@ -4,7 +4,7 @@
     "label": "Student",
     "picture": "https://github.com/portrait.jpg",
     "email": "serinaka@hawaii.edu",
-    "phone": "808-313-9133",
+    "phone": "",
     "website": "https://scn1901.github.io",
     "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences and B.A. in Astronomy at the University of Hawaii. I expect to graduate in Fall, 2025.",
     "location": { "address": "", "postalCode": "96701", "city": "Aiea", "countryCode": "USA", "region": "Hawaii" },
@@ -16,9 +16,7 @@
   "interests": [
     { "name": "Languages including programming and human languages" },
     { "name": "AM Canum Venaticorum star research" },
-    { "name": "Video Game Design with Art and Crafts" },
-    { "name": "" },
-    { "name": "" }
+    { "name": "Video Game Design with Art and Crafts" }
   ],
   "skills": [
     {
@@ -59,7 +57,7 @@
       "website": "None",
       "startDate": "2021-06",
       "endDate": "2022-03",
-      "summary": "",
+      "summary": "Hakubundo Store for Japanese stationary and goods ",
       "highlights": [
         "",
         ""
