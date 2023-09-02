@@ -52,6 +52,17 @@
   ],
   "work": [
     {
+      "company": "KA'I Program",
+      "position": "KA'I Tutor",
+      "website": "https://www.iolani.org/school/kai-programs",
+      "startDate": "2023-08",
+      "endDate": "Present",
+      "summary": "KA'I Programs are educational programs and support to under-resourced youth from Pālolo Valley."
+      "highlights": [
+        "Tutoring 7th-8th grade students with homework, i-Ready assignments, and TeenBiz assignments."
+      ]
+    },
+    {
       "company": "Hakubundo Store",
       "position": "Sales Associate",
       "website": "None",
@@ -64,6 +75,18 @@
       ]
     },
     {
+      "company": "Washington State University Japanese Language Department",
+      "position": "Japanese Language Teacher Assistant",
+      "website": "https://slcr.wsu.edu/japanese/",
+      "startDate": "2020-01",
+      "endDate": "2020-12",
+      "summary": "Japanese Language Teacher Assistant to Second Year students",
+      "highlights": [
+        "Lead a extra help session and review",
+        "Explain the week's lessons and assist students to understand the material better"
+      ]
+    },
+    {
       "company": "'Iolani School",
       "position": "Office Assistant",
       "website": "https://www.iolani.org/",
@@ -73,20 +96,34 @@
       "highlights": [
         "Xeroxing papers/textbooks for teachers and office purposes",
         "Filing and handling student files"
+      ]
     },
     {
-      "company": "KA'I Program",
-      "position": "KA'I Tutor",
-      "website": "https://www.iolani.org/school/kai-programs",
-      "startDate": "2023-08",
-      "endDate": "Present",
-      "summary": "KA'I Programs are educational programs and support to under-resourced youth from Pālolo Valley."
+      "company": "'Iolani School",
+      "position": "Math and Japanese Language Tutor",
+      "website": "https://www.iolani.org/",
+      "startDate": "2015-08",
+      "endDate": "2019-01",
+      "summary": "Tutors meet with their students a couple times a week ",
       "highlights": [
-        "Tutoring 7th-8th grade students with homework, i-Ready assignments, and TeenBiz assignments."
+        "Assist students with homework and questions they have on the material"
+      ]
     }
   ],
   "activities": [
-    
+    {
+      "organization": "Japanese Student Association",
+      "position": "Executive Board Member",
+      "website": "https://wsu.presence.io/organization/japanese-student-association",
+      "startDate": "2019-08",
+      "endDate": "2021-05",
+      "summary": "Japanese Student Association, an organization that provides an atmosphere in which all students, whether they Japanese or non-Japanese, will feel welcome to explore and learn about Japanese culture, connect with other students, and experience new ideas (wsu.presence.io)",
+      "highlights": [
+        "Planning events such as a winter festival of food and games with other international student associations",
+        "Leading JSA meetings, informational meetings and activities",
+        "Promoting the organization through booths and performances"
+      ]
+    }
   ],
   "volunteer": [
     {
