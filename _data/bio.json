@@ -59,10 +59,34 @@
       "endDate": "2022-03",
       "summary": "Hakubundo Store for Japanese stationary and goods ",
       "highlights": [
-        "",
-        ""
+        "Communicating with customers and assuring to attend to their needs",
+        "Managing the store, restocking the floor and keeping it clean"
       ]
+    },
+    {
+      "company": "'Iolani School",
+      "position": "Office Assistant",
+      "website": "https://www.iolani.org/",
+      "startDate": "2018-08",
+      "endDate": "2019-07",
+      "summary": "Assistant to the associates working in the 'Iolani School Office."
+      "highlights": [
+        "Xeroxing papers/textbooks for teachers and office purposes",
+        "Filing and handling student files"
+    },
+    {
+      "company": "KA'I Program",
+      "position": "KA'I Tutor",
+      "website": "https://www.iolani.org/school/kai-programs",
+      "startDate": "2023-08",
+      "endDate": "Present",
+      "summary": "KA'I Programs are educational programs and support to under-resourced youth from Pālolo Valley."
+      "highlights": [
+        "Tutoring 7th-8th grade students with homework, i-Ready assignments, and TeenBiz assignments."
     }
+  ],
+  "activities": [
+    
   ],
   "volunteer": [
     {
@@ -99,10 +123,10 @@
       "summary": "Scholarship for an awardee to live in Japan for a year and study Japanese and a study of their choice."
     },
     {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
+      "title": "2019 Ukulele Festival Hawaii Scholarship Recipient",
+      "date": "2019",
+      "awarder": "Lili Anama Park Memorial Fund",
+      "summary": "Scholarship for students of Roy Sakuma Ukulele Studios"
     }
   ],
   "references": [
