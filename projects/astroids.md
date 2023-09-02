@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/astroids.jpeg
 title: "Astroids - Our own C++ Astroids"
-date: 2022-2023
+date: 2020
 published: true
 labels:
   - C++
