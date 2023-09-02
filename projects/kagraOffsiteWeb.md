@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/
+image: img/detector.jpeg
 title: "KAGRA gravitational wave detector Web App for Offsite"
 date: 2022-2023
 published: true
