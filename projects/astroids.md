@@ -1,15 +1,25 @@
-https://github.com/AndrewGBalaschak/PA9
+---
+layout: project
+type: project
+image: img/
+title: "Determining the Age of NGC 6791 Through BVI Data"
+date: 2022-2023
+published: true
+labels:
+  - Fortran
+summary: "Utilizing MESA Star 1D modeling (modeling with graphs) to study the age of NGC 6791"
+---
 
+<div class="text-center p-4">
+  <img width="200px" src="../img/" class="img-thumbnail" >
+</div>
 
+Paragraph here
+
+```cpp
 class Player : public MovingObject {
 protected:
-	int score;
-	int fuel;
-	int fuelConsumptionRate; //debug
-	double moveSpeed; //debug
-	double rotateSpeed; //debug
-	double maxVelocity; //debug
-	std::string name;
+// etc. variables
 	struct Scalar { //dictates what proportion of the player's acceleration goes into x and y components of velocity
 		double x; //proportion of acceleration in x direction (-1 to 1)
 		double y; //proportion of acceleration in y direaction (-1 to 1)
@@ -17,43 +27,9 @@ protected:
 	Scalar s;
 	sf::Sprite* playerSprite;
 	sf::Texture* playerTexture;
-// code
 
-	//return fuel for stats
-	int getFuel() {
-		return fuel;
-	}
-
-	//return score for stats
-	int getScore() {
-		return score;
-	}
-
-	//increase score when destroy
-	void incrementScore(int addToScore) {
-		score = addToScore * 50;
-	}
-
-	//takes user input for name
-	void setName() {
-		std::cout << "Enter name: ";
-		std::cin >> name;
-	}
-
-	//returns x component of velocity
-	int getVelX() {
-		return v.x;
-	}
-
-	//returns y component of velocity
-	int getVelY() {
-		return v.y;
-	}
-
-	//returns name of player
-	std::string getName() {
-		return name;
-	}
+// etc. functions
+// etc. functions
 
 	//calculates what proportion of thrust should go into x and y components
 	void calculateScalar() {
@@ -126,34 +102,12 @@ protected:
 		}
 	}
 
-	//updates the player's sprite to represent its true position and rotation
-	void updateSprite() {
-		playerSprite->setPosition(p.x, p.y);
-		playerSprite->setRotation(90 - getRotationDegrees());
-		//std::cout << getRotationDegrees() << std::endl;
-	}
-
-	//draws player sprite on win
-	void draw(sf::RenderWindow* win) {
-		win->draw(*playerSprite);
-	}
-
-	//checks if obj has collided with anything
-	bool collides(MovingObject* obj) {
-		
-		return false;
-	}
-
-	sf::FloatRect getBounds() {
-		return playerSprite->getGlobalBounds();
-	}
-
-	//called when collides
-	void collideResults() {
-		active = false;
-		delete playerSprite, playerTexture;
-	}
-
-	void isDead() { active = false; }
 };
-#endif;
+
+```
+
+
+
+https://github.com/AndrewGBalaschak/PA9
+
+
