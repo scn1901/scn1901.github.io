@@ -28,10 +28,10 @@ I was the primary programmer of this project. My advisors, K. Hayama of Fukuoka 
 
 #### Inside the Detector
 <div class="text-center p-4">
-  <img width="300px" src="../img/kagraProject/detectorInside.png" class="img-thumbnail" >
+  <img width="300px" src="../img/kagraProject/detectorInside.png" class="img-fluid" >
 </div>
 <div class="text-center p-4">
-  <img width="300px" src="../img/kagraProject/detectorInside2.png" class="img-thumbnail" >
+  <img width="300px" src="../img/kagraProject/detectorInside2.png" class="img-fluid" >
 </div>
 
 ## Growth in Independence
