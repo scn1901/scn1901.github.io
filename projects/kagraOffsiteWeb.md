@@ -12,7 +12,10 @@ labels:
 summary: "Web App to connect offsite workers to KAGRA detector server."
 ---
 
-Although I cannot share much of the project itself, I am able to explain the works of this project. In simple words, the project was a web application for researchers to utilize and analyse data from the KAGRA gravitational wave detector without accessing the server itself directly.
+Although I cannot share much of the project itself, I am able to explain the works of this project. In simple words, the project was a web application for researchers to utilize and analyse data from the Kamioka Gravitational Wave Detector (KAGRA) without accessing the server itself directly. A gravitational wave detector utilizes lasers to detect gravitational waves from space, astronomical events including neutron stars or black holes orbiting each other or stars at the end of their life when they supernova. Gravitational waves are 'ripples in space-time', space-time as the fabric of the Universe that can be theoretically bent due to gravity.  This detector utilizes the displacement of the laser at a detector 3meters away from the laser's origin to observe gravitational wave data.
+<div class="text-center p-4">
+  <img width="450px" src="../img/detectorExplain.jpeg" class="img-thumbnail" >
+</div>
 The web application displayed graphs of the gravitational wave data at a specific time, GPS time, which is a continuous second time scale.  
 
 ## Devising Plans
