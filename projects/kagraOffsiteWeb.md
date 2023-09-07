@@ -16,10 +16,10 @@ Although I cannot share much of the project itself, I am able to explain the wor
 
 #### About the Detector
 <div class="text-center p-4">
-  <img width="450px" src="../img/kagraProject/detectorExplain.jpeg" class="img-thumbnail" >
+  <img width="450px" src="../img/kagraProject/detectorExplain.jpeg" class="img-fluid" >
 </div>
 <div class="text-center p-4">
-  <img width="450px" src="../img/kagraProject/gravWaves.jpeg" class="img-thumbnail" >
+  <img width="450px" src="../img/kagraProject/gravWaves.jpeg" class="img-fluid" >
 </div>
 
 ## Devising Plans
