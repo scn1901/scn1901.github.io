@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Technical Essay - It gives, "Do my homework for me... Please?"
+title: "Ask for help, but not the whole solution!"
 date: 2023-09-08
 published: true
 labels:
@@ -10,7 +10,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="">
+<img width="300px" class="rounded float-start pe-4" src="/img/essay/stackOverflowImg.png">
 
 StackOverflow worthy queries
 Meaningful subject headers
@@ -40,7 +40,9 @@ In my opinion, these ‘smart’ questions are indeed the better questions. It m
 Not all coders posting on StackOverflow with purely conceptual questions do so with the intent of obtaining the answer without trying to solve the problem themselves. Sometimes, a problem with the code seems like an error with an unknown cause, when it is actually an incorrect implementation of a code, or conceptual misunderstandings. 
 
 ### Bad Question
-One example of a bad question on StackOverflow was a post that asked, “How can I optimize a recursive algorithm for calculating Fibonacci numbers in C++?” At first, you may see this as a question that is straightforward and purposeful, however, this question is asking for an answer to the problem that the coder should be trying to solve themselves. Even if they had already created their own fibonacci code, when the question is asking for a direct answer to how to optimize their code, we know that this question is not a ‘Smart’ question and Hackers will be less likely to answer and/or answer in a ‘rude’ way. As StackOverflow is not tutorial site, it wouldn’t be the proper place for a question like this. And thus with the reasons stated in this paragraph, we know what 
+One example of a bad question on StackOverflow was a post that asked, “How can I optimize a recursive algorithm for calculating Fibonacci numbers in C++?” At first, you may see this as a question that is straightforward and purposeful, however, this question is asking for an answer to the problem that the coder should be trying to solve themselves. Even if they had already created their own fibonacci code, when the question is asking for a direct answer to how to optimize their code, we know that this question is not a ‘Smart’ question and Hackers will be less likely to answer and/or answer in a ‘rude’ way. As StackOverflow is not tutorial site, it wouldn’t be the proper place for a question like this. And thus with the reasons stated in this paragraph, we know what to look out for when preparing a question to post.
+<link href="https://stackoverflow.com/questions/77032758/how-can-i-optimize-a-recursive-algorithm-for-calculating-fibonacci-numbers-in-c">
 
 ### Good Question!
 An example of a good question on StackOverflow was posted recently by a user named Steve. They titled the query, “Why is return values of dynamic programming function behaving weirdly”. While I do not particularly like the way they worded this question, namely ‘weirdly’ (a small error) I do like how they set up the problem at hand, state what they expect but what is being returned, and also including a separate method that they tried (but failed). The second, more worrisome, error was the lack of understanding of how to use the functions they were utilizing. When a concept is not understood, the coder should be learning about the concept through manuals/textbooks before utilizing StackOverflow.
+<link href="https://stackoverflow.com/questions/77053046/why-is-return-values-of-dynamic-programming-function-behaving-weirdly">
