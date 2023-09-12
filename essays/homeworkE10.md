@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "E10 : Reflect on Javascript 1"
+title: "The Beauty of Javascript...?"
 date: 2023-08-30
 published: true
 labels:
@@ -18,12 +18,12 @@ Javascript, the programming language of web applications, is used in over 90% of
 ## "Why?" You may ask.
 Rhetoric aside, let us explore the challenges in the language of Javascript. 
 
-```
-First and foremost, comparisons between numbers and between numbers converted to string in Javascript. Javascript utilizes IEEE 754 Double Precision, which results in comparisons such as 0.1 + 0.2 === 0.3 to be false, 1.0000000001 === 1 to be true, and 9999999 == 10000000 to be true. With comparisons of arrays, 16 == [16] true, but 16 == [1,6] false and “1,6” == [1,6] true.
-```
-```
-As for arrays, an empty array, arr, has a length of 0 but arr[3] is “undefined” where we would expect a bound exception. In addition, you can append values to values past the supposed length of the array i.e. using the previous example, arr[3] = “hi” is applicable and will have .length of 4. Deleting arr[3] will still result in a length of 4 when arr[3] is now “undefined”. 
+First and foremost, comparisons between numbers and between numbers converted to string in Javascript. 
+Javascript utilizes IEEE 754 Double Precision, which results in comparisons such as 0.1 + 0.2 === 0.3 to be false, 1.0000000001 === 1 to be true, and 9999999 == 10000000 to be true. With comparisons of arrays, 16 == [16] true, but 16 == [1,6] false and “1,6” == [1,6] true.
 
+
+As for arrays, an empty array, arr, has a length of 0 but arr[3] is “undefined” where we would expect a bound exception. In addition, you can append values to values past the supposed length of the array i.e. using the previous example, arr[3] = “hi” is applicable and will have .length of 4. Deleting arr[3] will still result in a length of 4 when arr[3] is now “undefined”. 
+```
 >>> var arr = [];
 >>> arr.length     // 0
 >>> arr[3]         // "undefined"
@@ -33,9 +33,9 @@ As for arrays, an empty array, arr, has a length of 0 but arr[3] is “undefined
 >>> arr.length     // 4
 >>> arr[3]         // "undefined"
 ```
-```
-Although there are more functionalities of Javascript that may raise some eyebrows, we will end with the uncertainty of variables with no defined type (Javascript’s var). With example var i = 1, i = i + “” will make i a string, right? If we continue with the variable i and add 1, we get “11”, which could be reasoned as 1 is being added as a string, however, when i - 1, the result will be 0.
 
+Although there are more functionalities of Javascript that may raise some eyebrows, we will end with the uncertainty of variables with no defined type (Javascript’s var). With example var i = 1, i = i + “” will make i a string, right? If we continue with the variable i and add 1, we get “11”, which could be reasoned as 1 is being added as a string, however, when i - 1, the result will be 0.
+```
 >>> var i = 1;
 >>> i = i + "";
 >>> i + 1       // "11"
