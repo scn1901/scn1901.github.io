@@ -18,7 +18,7 @@ Although I cannot share much of the project itself, I am able to explain the wor
 <div class="text-center p-4">
   <img width="350px" src="../img/kagraProject/detectorExplain.jpeg" class="rounded float-start pe-4" >
 
-  <img height="250px" src="../img/kagraProject/gravWaves.jpeg" class="rounded float-start pe-4" >
+  <img height="300px" src="../img/kagraProject/gravWaves.jpeg" class="rounded float-start pe-4" >
 </div>
 
 ## Devising Plans
