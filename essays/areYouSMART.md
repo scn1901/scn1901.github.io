@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Ask for help, but not the whole solution!"
+title: "Are you SMART?"
 date: 2023-09-08
 published: true
 labels:
