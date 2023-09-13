@@ -9,7 +9,7 @@ labels:
   - Homework
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="">
+<img width="300px" class="rounded float-start pe-4" src="/img/essay/javascriptImg.jpeg">
 
 ## The Beauty of Javascript...?
 
