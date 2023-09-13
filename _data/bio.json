@@ -10,13 +10,13 @@
     "location": { "address": "", "postalCode": "96701", "city": "Aiea", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "scn1901", "url": "http://github.com/scn1901" },
-      { "network": "linkedin", "username": "Seri Nakamura", "url": "http://linkedin.com/in/seri-nakamura" },
+      { "network": "linkedin", "username": "Seri Nakamura", "url": "http://linkedin.com/in/seri-nakamura" }
     ]
   },
   "interests": [
     { "name": "Languages including programming and human languages" },
     { "name": "AM Canum Venaticorum star research" },
-    { "name": "Video Game Design with Art and Crafts" }
+    { "name": "Video Game Design with Art" }
   ],
   "skills": [
     {
@@ -37,6 +37,16 @@
       "endDate": "Present",
       "courses": [
         "Intro to Computer Architecture", "Discrete Mathematics II"
+      ]
+    },
+    {
+      "institution": "University of Fukuoka",
+      "area": "Department of Physics and Astronomy",
+      "studyType": "Research",
+      "startDate": "2022-04",
+      "endDate": "2023-04",
+      "courses": [
+        "Intro to Python", "Intro to Astrophysics"
       ]
     },
     {
@@ -65,7 +75,7 @@
     {
       "company": "Hakubundo Store",
       "position": "Sales Associate",
-      "website": "None",
+      "website": "",
       "startDate": "2021-06",
       "endDate": "2022-03",
       "summary": "Hakubundo Store for Japanese stationary and goods ",
