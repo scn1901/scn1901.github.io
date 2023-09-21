@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "TMy code is pretty, how dare you."
+title: "How dare you say my code isn't pretty."
 date: 2023-08-30
 published: true
 labels:
