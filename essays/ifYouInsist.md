@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: "How dare you say my code isn't pretty."
-date: 2023-08-30
+date: 2023-09-21
 published: true
 labels:
   - Essay
