@@ -11,7 +11,7 @@ labels:
   - ChatGPT
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="/img/essay/chatgpt.jpg">
+<img width="300px" class="rounded float-start pe-4" src="/img/essay/chatgpt_assistente.jpg">
 
 ## Introduction
 
