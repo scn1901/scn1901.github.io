@@ -18,5 +18,6 @@ I was misled! I felt betrayed... "314, Software Engineering I, is just Web Dev!"
 ## I don't doubt Coding Standards are useful...
 Coding standards are very useful in the workforce, especially for the fact that many projects will be worked on by a team of developers. Coding standards would allow for code to be "readable" by all who work on the project which allows for collaboration not only in the present, but also in the future and errors to be easily idetified.
 ## Agile project management
-
+First, scheduling 3 milestones for the project helped ensure that we didn't procrastinate until the deadline to complete the project. Using the project boards on GitHub Organization for our Final Project was helpful in keeping people accountable for their work but also making sure that everyone in the group was aware of what others have accomplished in the project. 
 ## Design Patterns
+As we now know, after going through ICS 314 course actively using this structure, design patterns are very useful, repeatable solutions for problem to be solved in software. 
