@@ -15,7 +15,8 @@ summary: "Web Application for Full Cycle Takeout, a non-profit organization prov
 Our goal throughout this project was to design an app for the reusable takeout container program, Full Cycle Takeout, so that it was easier to use through mobile.
 We needed a user interface that allows for 'Check Out' of containers and 'Return' of containers because Full Cycle Takeout wanted to be able to track which containers are in use.
 
-<img src="mobile_landing_scrnsht.png" />
+<div class="text-center p-4">
+  <img width="350px" src="../img/mobile_landing_scrnsht.png"  class="rounded float-start pe-4" />
 
 ## The Back-End Team
 My group divided ourselves into three groups, Front-end, Back-end, and Schema. I worked on the Back-end team, dealing with the admin user page, the order return pages, and deployment of the website. 
