@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="The Beauty of Javascript...? | Seri Nakamura | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/scn1901.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Seri Nakamura | Professional Portfolio">
+    <meta property="og:url" content="https://scn1901.github.io/essays/ewJavascript.html">
+    <meta property="og:title" content="The Beauty of Javascript...? | Seri Nakamura | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/scn1901.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>The Beauty of Javascript...? | Seri Nakamura | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Seri Nakamura</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">The Beauty of Javascript...?</h1>
+  <span class="date">30 Aug 2023</span>
+  <hr>
+  <p><img width="300px" class="rounded float-start pe-4" src="/img/essay/javascriptImg.jpeg" /></p>
+
+<h2 id="the-beauty-of-javascript">The Beauty of Javascript…?</h2>
+
+<p>Javascript, the programming language of web applications, is used in over 90% of all websites and was said to be created in about 10 days. Who would expect such a well-known, frequently used programming language to be hated? Javascript enthusiasts, if they exist, may reason (don’t fall for it) that Javascript has interesting capabilities: “Javascript allows functions in first class!”, “Javascript makes it so we can create cool websites!”, insert Javascript praise here… Whoever you are, you may be in denial. I could create lists and arrays that give all the reasons to find Javascript unappealing and these lists would have time complexity O(n!) in all methods of sorting!</p>
+
+<h2 id="why-you-may-ask">“Why?” You may ask.</h2>
+<p>Rhetoric aside, let us explore the challenges in the language of Javascript.</p>
+
+<p>First and foremost, comparisons between numbers and between numbers converted to string in Javascript. 
+Javascript utilizes IEEE 754 Double Precision, which results in comparisons such as 0.1 + 0.2 === 0.3 to be false, 1.0000000001 === 1 to be true, and 9999999 == 10000000 to be true. With comparisons of arrays, 16 == [16] true, but 16 == [1,6] false and “1,6” == [1,6] true.</p>
+
+<p>As for arrays, an empty array, arr, has a length of 0 but arr[3] is “undefined” where we would expect a bound exception. In addition, you can append values to values past the supposed length of the array i.e. using the previous example, arr[3] = “hi” is applicable and will have .length of 4. Deleting arr[3] will still result in a length of 4 when arr[3] is now “undefined”.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; var arr = [];
+&gt;&gt;&gt; arr.length     // 0
+&gt;&gt;&gt; arr[3]         // "undefined"
+&gt;&gt;&gt; arr[3] = "hi";
+&gt;&gt;&gt; arr.length     // 4
+&gt;&gt;&gt; delete(arr[3]);
+&gt;&gt;&gt; arr.length     // 4
+&gt;&gt;&gt; arr[3]         // "undefined"
+</code></pre></div></div>
+
+<p>Although there are more functionalities of Javascript that may raise some eyebrows, we will end with the uncertainty of variables with no defined type (Javascript’s var). With example var i = 1, i = i + “” will make i a string, right? If we continue with the variable i and add 1, we get “11”, which could be reasoned as 1 is being added as a string, however, when i - 1, the result will be 0.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; var i = 1;
+&gt;&gt;&gt; i = i + "";
+&gt;&gt;&gt; i + 1       // "11"
+&gt;&gt;&gt; i - 1       // 0
+</code></pre></div></div>
+<h1 id="conclusion">Conclusion</h1>
+<p>The unfortunate souls who utilize Javascript in their daily lives do not deserve such punishment. As I have said previously, we could list an endless number of reasons to dislike Javascript, however, these reasons should have been enough to open a programmer’s eyes to see the true nature of Javascript.</p>
+
+<h1 id="athletic-software-engineering">Athletic Software Engineering</h1>
+<p>Speaking from the perspective of a student programmer who has been learning in classes and utilizing code in projects, I think athletic software engineering is a very effective method of learning. The WODs, so far, have been simple and straightforward, making it easy to practice the syntax as many of us may be writing in Javascript for the first time. The WODs may be stressful, but the stress doesn’t allow for us to idly complete the task given to us. An elementary/middle school teacher once told me that students will complete the task in whatever time is given to them, whether it be 10 minutes or an hour, they will complete it within the time you give them. Although she was referring to young children, I thought this statement was quite relevant to even us college students. Thus, the urgency of completing the WOD task helps me in keeping me focused, not only in training my brain to quickly think of a solution for the problem. It is also quite gratifying to complete a WOD in a shorter time than you would have expected (though I do not expect myself to do as such when the WODs become more complicated). This is not to say, however, that projects should have earlier due dates. Tasks like those in WODs are more concise and will allow us to practice a couple of Javascript strategies/functions, whereas projects require us to incorporate multiple strategies into one code.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

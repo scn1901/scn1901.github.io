@@ -1,0 +1,225 @@
+{
+  "basics": {
+    "name": "Seri Nakamura",
+    "label": "Student",
+    "picture": "https://github.com/scn1901.png",
+    "email": "serinaka@hawaii.edu", 
+    "phone": "",
+    "website": "",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences and B.A. in Astronomy at the University of Hawaii. I expect to graduate in Fall, 2025.",
+    "location": { "address": "", "postalCode": "96701", "city": "Aiea", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "scn1901", "url": "http://github.com/scn1901" },
+      { "network": "linkedin", "username": "Seri Nakamura", "url": "https://www.linkedin.com/in/seri-nakamura-5a3a62193" }
+    ]
+  },
+  "interests": [
+    { "name": "Languages including programming and human languages" },
+    { "name": "AM Canum Venaticorum star research" },
+    { "name": "Origami and crafts" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Meteor/React" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub" ]
+    },
+    {
+      "name": "Japanese",
+      "keywords": [ "Professional", "Basic Technical Conversation in Astronomy and Computers" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Fall 2025)", "Astronomy (expected Fall 2025)",
+      "studyType": "B.S.",
+      "startDate": "2021-01",
+      "endDate": "Present",
+      "courses": [
+        "Intro to Computer Architecture", "Discrete Mathematics for Computer Science II", "Algorithms", "Software Engineering I", "Foundations of Astrophysics I, II"
+      ]
+    },
+    {
+      "institution": "University of Fukuoka",
+      "area": "Department of Physics and Astronomy",
+      "studyType": "Research",
+      "startDate": "2022-04",
+      "endDate": "2023-04",
+      "courses": [
+        "Intro to Python", "Intro to Astrophysics"
+      ]
+    },
+    {
+      "institution": "Washington State University - Honors College, Pullman, WA",
+      "area": "Computer Science (Transfer out 2020)",
+      "studyType": "B.S.",
+      "startDate": "2019-08-20",
+      "endDate": "2020-12-20",
+      "courses": [
+        "Program Design & Develop C/C++", "Data Structures C/C++", "Advanced Data Structures C/C++"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "KA'I Program",
+      "position": "KA'I Tutor",
+      "website": "https://www.iolani.org/school/kai-programs",
+      "startDate": "2023-08",
+      "endDate": "Present",
+      "summary": "KA'I Programs are educational programs and support to under-resourced youth from Pālolo Valley.",
+      "highlights": [
+        "Tutoring 7th-8th grade students with homework, i-Ready assignments, and TeenBiz assignments."
+      ]
+    },
+    {
+      "company": "Hakubundo Store",
+      "position": "Sales Associate",
+      "website": "",
+      "startDate": "2021-06",
+      "endDate": "2022-03",
+      "summary": "Hakubundo Store for Japanese stationary and goods ",
+      "highlights": [
+        "Communicating with customers and assuring to attend to their needs",
+        "Managing the store, restocking the floor and keeping it clean"
+      ]
+    },
+    {
+      "company": "Washington State University Japanese Language Department",
+      "position": "Japanese Language Teacher Assistant",
+      "website": "https://slcr.wsu.edu/japanese/",
+      "startDate": "2020-01",
+      "endDate": "2020-12",
+      "summary": "Japanese Language Teacher Assistant to Second Year students",
+      "highlights": [
+        "Lead a extra help session and review",
+        "Explain the week's lessons and assist students to understand the material better"
+      ]
+    },
+    {
+      "company": "'Iolani School",
+      "position": "Office Assistant",
+      "website": "https://www.iolani.org/",
+      "startDate": "2018-08",
+      "endDate": "2019-07",
+      "summary": "Assistant to the associates working in the 'Iolani School Office.",
+      "highlights": [
+        "Xeroxing papers/textbooks for teachers and office purposes",
+        "Filing and handling student files"
+      ]
+    },
+    {
+      "company": "'Iolani School",
+      "position": "Math and Japanese Language Tutor",
+      "website": "https://www.iolani.org/",
+      "startDate": "2015-08",
+      "endDate": "2019-01",
+      "summary": "Tutors meet with their students a couple times a week ",
+      "highlights": [
+        "Assist students with homework and questions they have on the material"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "organization": "Grey Hats",
+      "position": "Board Member",
+      "website": "https://acmmanoa.org/pages/clubs/greyhats/",
+      "startDate": "2023-12",
+      "endDate": "Present",
+      "summary": "Grey Hats is a student-led, extracurricular organization focused on real-world training for cyber defense.(website)",
+      "highlights": [
+        "Participation in cyber security related events like Capture the Flag (CTF) competitions and National Cyber League (NCL).",
+        "Organize and present on cyber security related topics during weekly general meetings."
+      ]
+    },
+    {
+      "organization": "Supporting Women in Information Technology & Computing in Hawaii (SWITCH)",
+      "position": "Board Member",
+      "website": "https://switch-uhm.github.io/",
+      "startDate": "2023-15",
+      "endDate": "Present",
+      "summary": "SWITCH is an organization with the goals of creating a welcoming community to students in STEAM.",
+      "highlights": [
+        "Planning general meeting events and socials",
+        "Participating in community service opportunities",
+        "Partnering with Girl Scouts to inspire youth."
+      ]
+    },
+    {
+      "organization": "ACM at Manoa",
+      "position": "Events Coordinator - Datathon",
+      "website": "https://acmmanoa.org/",
+      "startDate": "2023-08",
+      "endDate": "Present",
+      "summary": "Association for Computing Machinery at UH Manoa is a computer science organization at University of Hawaii at Manoa.",
+      "highlights": [
+        "An events coordinator for ACM at Manoa leads planning and coordination for events.", 
+        "Datathon, a data science  will have its first annual occurance on March 9-10 in the new year."
+      ]
+    },
+    {
+      "organization": "Japanese Student Association",
+      "position": "Executive Board Member",
+      "website": "https://wsu.presence.io/organization/japanese-student-association",
+      "startDate": "2019-08",
+      "endDate": "2021-05",
+      "summary": "Japanese Student Association, an organization that provides an atmosphere in which all students, whether they Japanese or non-Japanese, will feel welcome to explore and learn about Japanese culture, connect with other students, and experience new ideas (wsu.presence.io)",
+      "highlights": [
+        "Planning events such as a winter festival of food and games with other international student associations",
+        "Leading JSA meetings, informational meetings and activities",
+        "Promoting the organization through booths and performances"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Hawaii Fukuoka Kenjinkai",
+      "website": "https://www.hawaiifukuokakenjinkai.org/",
+      "position": "Member",
+      "startDate": "2021-08",
+      "endDate": "Present",
+      "summary": "An association founded by immigrants or descendants of immigrants from Fukuoka Prefecture, Japan. ",
+      "highlights": [
+        "Cleanup at Ehime Maru Memorial",
+        "Summer Obon Festival (Japanese Festival) Volunteering"
+      ]
+    },
+    {
+      "organization": "Bridge Club Hawaii",
+      "website": "http://www.bcio.org/countries/hawaii/",
+      "position": "Executive Board Member",
+      "startDate": "2015-07",
+      "endDate": "2022-08",
+      "summary": "An organization built to promote established connections between Japan and Hawaii Youth.",
+      "highlights": [
+        "Waikiki Beach Clean-Up",
+        "Canned Food Drive",
+        "Junior Ambassador to Fukuoka preparation"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Fukuoka International Exchange Foundation Scholarship Recipient",
+      "date": "2022-03-01",
+      "awarder": "Fukuoka International Exchange Foundation",
+      "summary": "Scholarship for an awardee to live in Japan for a year and study Japanese and a study of their choice."
+    },
+    {
+      "title": "2019 Ukulele Festival Hawaii Scholarship Recipient",
+      "date": "2019",
+      "awarder": "Lili Anama Park Memorial Fund",
+      "summary": "Scholarship for students of Roy Sakuma Ukulele Studios"
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

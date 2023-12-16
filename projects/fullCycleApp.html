@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Full Cycle App with Ethical HACCers | Seri Nakamura | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/scn1901.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Seri Nakamura | Professional Portfolio">
+    <meta property="og:url" content="https://scn1901.github.io/projects/fullCycleApp.html">
+    <meta property="og:title" content="Full Cycle App with Ethical HACCers | Seri Nakamura | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/scn1901.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Full Cycle App with Ethical HACCers | Seri Nakamura | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Seri Nakamura</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Full Cycle App with Ethical HACCers</h1>
+ <p>Our goal throughout this project was to design an app for the reusable takeout container program, Full Cycle Takeout, so that it was easier to use through mobile.
+We needed a user interface that allows for ‘Check Out’ of containers and ‘Return’ of containers because Full Cycle Takeout wanted to be able to track which containers are in use.</p>
+
+<h2 id="full-cycle-application">Full Cycle Application</h2>
+<p><a href="https://github.com/ethical-haccers">Ethical HACCers GitHub Organization Page</a></p>
+
+<div class="text-center p-4">
+  <img width="350px" src="../img/mobile_landing_scrnsht.png" class="rounded float-start pe-4" />
+</div>
+
+<h2 id="the-back-end-team">The Back-End Team</h2>
+<p>My group divided ourselves into three groups, Front-end, Back-end, and Schema. I worked on the Back-end team, dealing with the admin user page, the order return pages, and deployment of the website.</p>
+
+<p>My first task was to create the Accounts page for Admins (the Full Cycle Takeout Admins) to view all accounts made in utilizing the web application. This page displayed information from the Meteor Account collection created for each ‘User’.
+And although it wasn’t my task, I also took on editing the User Account collection and learned how to manipulate the schema in order to display information about the Account itself in the Account Information page on the Admin access.</p>
+
+<p>The second task I completed was the page for order/container return. This page took in the container ID to return and once the ID was submitted, the back-end handled reassigning certain values to the container collection: assigning the current date as the return date and reassigning the status of the container as ‘cleaning’ (meaning it is returned to the Full Cycle Workers). This task was pretty rewarding because I felt that I understood the connections between the collection, schema, and front-end and how to utilize them together, rather than blindly copying the initial form template.</p>
+
+<p>And lastly, I worked on deployment through Digital Ocean. I found Digital Ocean to be very convenient in deploying our application and potentially useful in future projects. Setting up and Deploying the application does take some time, however the usage of two (cute) mup commands for Meteor Up setup and deploy was simple and convenient.</p>
+
+<h3 id="learning-experience">Learning Experience</h3>
+<p>Throughout this experience, I learned more about the Meteor utilities and libraries. I struggled the most with the Meteor Accounts and learning how to utilize this collection. Since it is a Meteor collection, it was a little difficult to create new variables to store data in the account. One of the first issue that prevented further development was subscribing to the Account collection. Although it is a Meteor collection, it is still necessary to subscribe to the Meteor Account collection itself.</p>
+
+<p>This experience also allowed me to practice managing a team of developers and making sure to be constructive and assertive when suggesting ideas and also making other accountable for their part in a project. I learned that there are situations where one must take a step back and allow other developers to do their designated part and other times, although not ideal, I must take on others’ tasks because they are necessary to move forward with the project.
+As seen by the results of the final project, I am still learning how to manage people and make sure the outcomes we want get accomplished.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
