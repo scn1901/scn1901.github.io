@@ -9,7 +9,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="/img/essay/se.jpg">
+<img width="300px" class="rounded float-start pe-4" src="/img/essay/se.png">
 
 # Software Engineering
 As our trusty, geeksforgeeks.org eloquently writes, "Software Engineering is the process of designing, developing, testing, and maintaining software. It is a systematic and disciplined approach to software development that aims to create high-quality, reliable, and maintainable software." This course has re-enforced notable skills that are essential to programmers in the workforce. 
