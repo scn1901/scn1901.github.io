@@ -21,11 +21,15 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Meteor/React" ]
     },
     {
       "name": "Toolsets/OS",
       "keywords": [ "MacOS", "Ubuntu", "Git/GitHub" ]
+    },
+    {
+      "name": "Japanese",
+      "keywords": [ "Professional", "Basic Technical Conversation in Astronomy and Computers" ]
     }
   ],
   "education": [
