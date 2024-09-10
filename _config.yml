@@ -31,7 +31,3 @@ include:
 plugins:
   - jekyll-gist
 
-language: ruby
-rvm:
-  - 2.3
-script: "bundle exec jekll build"
