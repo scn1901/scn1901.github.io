@@ -66,6 +66,19 @@
   ],
   "work": [
     {
+      "company": "Information Technology Services at UH Mānoa",
+      "position": "ITS Lab Monitor/Help Desk and Reception Desk Student Assistant",
+      "website": "https://www.hawaii.edu/its/",
+      "startDate": "2024-02",
+      "endDate": "Present",
+      "summary": "As a student employee of the ITS at UH Mānoa, employees assist students with computer issues at Hamilton Library Computer Lab and Help Desk and monitor personnel traffic through the ITS building.",
+      "highlights": [
+        "Assist patrons with IT issues",
+        "Troubleshoot tech issues (printers, lab computers)",
+        "Manage visitors and ensure valid access to ITS building"
+      ]
+    },
+    {
       "company": "KA'I Program",
       "position": "KA'I Tutor",
       "website": "https://www.iolani.org/school/kai-programs",
@@ -139,9 +152,9 @@
     },
     {
       "organization": "Supporting Women in Information Technology & Computing in Hawaii (SWITCH)",
-      "position": "Board Member",
+      "position": "VP of External Affairs",
       "website": "https://switch-uhm.github.io/",
-      "startDate": "2023-15",
+      "startDate": "2023-09",
       "endDate": "Present",
       "summary": "SWITCH is an organization with the goals of creating a welcoming community to students in STEAM.",
       "highlights": [
@@ -155,7 +168,7 @@
       "position": "Events Coordinator - Datathon",
       "website": "https://acmmanoa.org/",
       "startDate": "2023-08",
-      "endDate": "Present",
+      "endDate": "2024-06",
       "summary": "Association for Computing Machinery at UH Manoa is a computer science organization at University of Hawaii at Manoa.",
       "highlights": [
         "An events coordinator for ACM at Manoa leads planning and coordination for events.", 
@@ -173,6 +186,30 @@
         "Planning events such as a winter festival of food and games with other international student associations",
         "Leading JSA meetings, informational meetings and activities",
         "Promoting the organization through booths and performances"
+      ]
+    }
+  ],
+  "research": [
+    {
+      "company": "University of California, Riverside and University of Hawaii at Manoa CHAMP (California Hawaii Astronomy Mentorship Program)",
+      "position": "Preparing a machine learning algorithm to identify cosmic filaments in image data",
+      "startDate": "2023-06",
+      "endDate": "Present",
+      "summary": "This research project uses a cosmic filament identifier algorithm, SCONCE SCMS to study COSMOS2020 data and produce tracings of cosmic filaments for machine learning algorithm training data.",
+      "highlights": [
+        "Research on SCONCE SCMS cosmic filament identifier algorithm",
+        "Understanding telescope data of galaxy data points in COSMOS2020",
+        "Research on machine learning algorithms with cosmic filament identification (Mask R-CNN)"
+      ]
+    },
+    {
+      "company": "Washinton State University",
+      "position": "Isochrone Fitting of NGC6791",
+      "startDate": "2029-12",
+      "endDate": "2020-12",
+      "summary": "This research study worked with isochrones produced by Guy Worthey to overplot the funciton onto data points of NGC 6791",
+      "highlights": [
+        "Python and Matplotlib"
       ]
     }
   ],
