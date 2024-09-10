@@ -22,7 +22,7 @@ strict_front_matter: true
 mathjax: true
 exclude:
   - Gemfile
-  - Gemfile.lock
+#  - Gemfile.lock
   - LICENSE
   - README.md
 include:
