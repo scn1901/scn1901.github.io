@@ -22,7 +22,7 @@ strict_front_matter: true
 mathjax: true
 exclude:
   - Gemfile
-  - Gemfile.lock
+#  - Gemfile.lock
   - LICENSE
   - README.md
 include:
@@ -30,3 +30,8 @@ include:
   - _data
 plugins:
   - jekyll-gist
+
+language: ruby
+rvm:
+  - 2.3
+script: "bundle exec jekll build"
